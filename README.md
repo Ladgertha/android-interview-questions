@@ -32,7 +32,7 @@
 
 * **When only onDestroy is called for an activity without onPause() and onStop()?** - [Learn from here](https://www.youtube.com/watch?v=QSxcLnZ1-RU)
 
-* **Why do we need to call setContentView() in onCreate() of Activity class?** - [Learn from here](https://www.youtube.com/watch?v=zeYK8JdMOi8)
+*~~**Why do we need to call setContentView() in onCreate() of Activity class?** - [Learn from here](https://www.youtube.com/watch?v=zeYK8JdMOi8)~~ Done https://zen.yandex.ru/media/android_junior/pochemu-setcontentview-nado-obiazatelno-ukazyvat-v-oncreate-v-aktiviti-622fa493949cef2e4605b9fd
 
 * **What is onSavedInstanceState() and onRestoreInstanceState() in activity?**
     - onSavedInstanceState() - This method is used to store data before pausing the activity.
