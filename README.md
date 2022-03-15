@@ -26,7 +26,7 @@
 
 #### Activity and Fragment
 
-* **What is `Activity` and its lifecycle?** - [Learn from here](https://www.youtube.com/watch?v=RiFui-i-s-o)
+* ~~**What is `Activity` and its lifecycle?** - [Learn from here](https://www.youtube.com/watch?v=RiFui-i-s-o)~~ Done https://zen.yandex.ru/media/android_junior/rasskaji-pro-aktiviti-i-ee-jiznennyi-cikl-6230de8248635521ad6b7d58
 
 * **What is the difference between onCreate() and onStart()** - [Learn from here](https://www.youtube.com/watch?v=RiFui-i-s-o)
 
