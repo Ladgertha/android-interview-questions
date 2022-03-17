@@ -1024,7 +1024,7 @@
 
 * **Tell some advantages of Kotlin.** - [Learn from here](https://www.youtube.com/watch?v=kRhivT-jKzY&t=16s)
 
-* **What is the difference between `val` and `var`?** - [Learn from here](https://stackoverflow.com/questions/44200075/val-and-var-in-kotlin)
+* ~~**What is the difference between `val` and `var`?** - [Learn from here](https://stackoverflow.com/questions/44200075/val-and-var-in-kotlin)~~ Done https://zen.yandex.ru/media/android_junior/kakaia-raznica-mejdu-val-i-var-takoe-tochno-ne-sprosiat-no-prosto-povtorim-dlia-62337f4b07c2780d768d84f5
 
 * **What is the difference between `const` and `val`?** - [Learn from here](https://blog.mindorks.com/what-is-the-difference-between-const-and-val)
 
