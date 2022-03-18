@@ -1,20 +1,3 @@
-## Contents
-
-* [Core Android](#core-android)
-* [Android Libraries](#android-libraries)
-* [Android Architecture](#android-architecture)
-* [Android Design Problem](#android-design-problem)
-* [Android Unit Testing](#android-unit-testing)
-* [Android Tools And Technologies](#android-tools-and-technologies)
-* [Java and Kotlin](#java-and-kotlin)
-* [Data Structures And Algorithms](#data-structures-and-algorithms)
-* [Other Topics](#other-topics)
-
-### Core Android
-
-#### Base
-* ~~Tell all the Android application components.** - [Learn from here](https://developer.android.com/guide/components/fundamentals.html#Components)~~ Done https://zen.yandex.ru/media/android_junior/osnovnye-komponenty-androida-sobesedovanie-622de3788b35bd231d6dbaa4
-
 * **What is the project structure of an Android Application?** - [Learn from here](https://developer.android.com/studio/projects)
 
 * **What is `Context`? How is it used?** - [Learn from here](https://blog.mindorks.com/understanding-context-in-android-application-330913e32514)
@@ -26,13 +9,7 @@
 
 #### Activity and Fragment
 
-* ~~**What is `Activity` and its lifecycle?** - [Learn from here](https://www.youtube.com/watch?v=RiFui-i-s-o)~~ Done https://zen.yandex.ru/media/android_junior/rasskaji-pro-aktiviti-i-ee-jiznennyi-cikl-6230de8248635521ad6b7d58
-
 * **What is the difference between onCreate() and onStart()** - [Learn from here](https://www.youtube.com/watch?v=RiFui-i-s-o)
-
-* **When only onDestroy is called for an activity without onPause() and onStop()?** - [Learn from here](https://www.youtube.com/watch?v=QSxcLnZ1-RU)
-
-*~~**Why do we need to call setContentView() in onCreate() of Activity class?** - [Learn from here](https://www.youtube.com/watch?v=zeYK8JdMOi8)~~ Done https://zen.yandex.ru/media/android_junior/pochemu-setcontentview-nado-obiazatelno-ukazyvat-v-oncreate-v-aktiviti-622fa493949cef2e4605b9fd
 
 * **What is onSavedInstanceState() and onRestoreInstanceState() in activity?**
     - onSavedInstanceState() - This method is used to store data before pausing the activity.
@@ -994,9 +971,6 @@
     }
     ```
 
-* **What is the difference between "throw" and "throws" keyword in Java?**
-    - `throws` is just used to indicated which exception is to be thrown. But the `throw` keyword is used to throw some exception from any static block or any method.
-
 * **What does the `static` word mean in Java?**
     - In case of `static` variable it means that this variable (its' value or the object it references) spans across all instances of enclosing class (changing it in one instance affects all others), while in case of `static` methods it means that these methods can be invoked without an instance of their enclosing class. It is useful, for example, when you create util classes that need not be instantiated every time you want to use them.
 
@@ -1023,10 +997,6 @@
 * **Monitor and Synchronization** - [Learn from here](https://www.youtube.com/watch?v=oLTw1aJpSho)
 
 * **Tell some advantages of Kotlin.** - [Learn from here](https://www.youtube.com/watch?v=kRhivT-jKzY&t=16s)
-
-* ~~**What is the difference between `val` and `var`?** - [Learn from here](https://stackoverflow.com/questions/44200075/val-and-var-in-kotlin)~~ Done https://zen.yandex.ru/media/android_junior/kakaia-raznica-mejdu-val-i-var-takoe-tochno-ne-sprosiat-no-prosto-povtorim-dlia-62337f4b07c2780d768d84f5
-
-* **What is the difference between `const` and `val`?** - [Learn from here](https://blog.mindorks.com/what-is-the-difference-between-const-and-val)
 
 * **How to ensure `null` safety in Kotlin?** - [Learn from here](https://blog.mindorks.com/safecalls-vs-nullchecks-in-kotlin)
 
@@ -1329,29 +1299,3 @@
 * **How does the notification system work?** [Learn from here](https://blog.mindorks.com/how-to-increase-push-notification-delivery-rate-in-android)
 
 * **How to show local Notification at an exact time?** [Learn from here](https://blog.mindorks.com/how-to-increase-push-notification-delivery-rate-in-android)
-
-### Found this project useful :heart:
-
-* Support by clicking the :star: button on the upper right of this page. :v:
-
-[Check out MindOrks awesome open source projects here](https://mindorks.com/open-source-projects)
-
-### License
-```
-   Copyright (C) 2020 MINDORKS NEXTGEN PRIVATE LIMITED
-
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
-```
-
-### Contributing to Android Interview Questions
-Just make pull request. You are in!
